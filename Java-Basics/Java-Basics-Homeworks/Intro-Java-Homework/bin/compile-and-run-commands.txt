@@ -1,0 +1,2 @@
+Build .java file: javac -d bin src/SumTwoNumbers.java
+Run .class file: java -cp bin; SumTwoNumber
