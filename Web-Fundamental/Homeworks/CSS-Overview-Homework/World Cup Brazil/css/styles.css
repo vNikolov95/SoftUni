@@ -1,0 +1,145 @@
+body {
+    background-color: green;
+}
+
+table {
+    border-spacing: 0;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+table tr {
+    background-color: white;
+}
+table tr:nth-child(2n-2) {
+    background-color: #c8c8c8;
+}
+table th {
+    background-color: #f8c711;
+}
+table td {
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+}
+th {
+    font-size: 23px;
+    border-right: 1px solid #000;
+}
+th:first-child {
+    border-radius: 6px 0 0 0;
+    text-align: right;
+}
+th:nth-child(3) {
+    text-align: left;
+}
+th:last-child {
+    border-radius: 0 6px 0 0;
+    border-right: 0;
+}
+th:only-child{
+    border-radius: 6px 6px 0 0;
+}
+
+tr td:nth-child(5), tr td:nth-child(7) {
+    width: 110px;
+}
+tr td:nth-child(8) {
+    width: 30px;
+}
+tr:last-child td:first-child {
+    border-radius: 0 0px 0px 6px;
+}
+tr:last-child td:last-child {
+    border-radius: 0 0px 6px 0px;
+}
+td:nth-child(6) {
+    width: 100px;
+}
+td > select {
+    display: inline-block;
+    background-color: #dcdcdc;
+    width: 40px;
+    height: 30px;
+}
+
+td:first-child {
+    text-align: right;
+}
+td:nth-child(2) {
+    text-align: center;
+}
+td:nth-child(4) {
+     text-align: center;
+}
+td:nth-child(5) {
+    text-align: right;
+}
+td:nth-child(6) {
+    text-align: center;
+}
+td:last-child {
+    border-right: 0;
+}
+.flag-icon:before {
+    content: "\00a0";
+}
+.flag-icon {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.brasil {
+     background-image: url("../images/brazil.gif");
+ }
+.mexico {
+    background-image: url("../images/mexico.gif");
+}
+.spain {
+    background-image: url("../images/spain.gif");
+}
+.netherlands {
+    background-image: url("../images/netherlands.gif");
+}
+.italy {
+    background-image: url("../images/italy.gif");
+}
+.england {
+    background-image: url("../images/england.gif");
+}
+.argentina {
+    background-image: url("../images/argentina.gif");
+}
+.bosnia {
+    background-image: url("../images/bosnia.gif");
+}
+.germany {
+    background-image: url("../images/germany.gif");
+}
+.portugal {
+    background-image: url("../images/portugal.gif");
+}
+.btn {
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+}
+.red {
+    background-color: red;
+}
+.red-color {
+    color: red;
+}
+.green-color {
+    color: green;
+}
+.green {
+    background-color: green;
+}
