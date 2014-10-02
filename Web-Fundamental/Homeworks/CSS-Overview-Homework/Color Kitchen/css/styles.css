@@ -1,0 +1,149 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    background: url("../images/colorful_dots_on_black.jpg") repeat;
+    background-size: 26%;
+    font: 18px Tahoma;
+    width: 102.8%;
+}
+body > header {
+    color: yellow;
+    font: bold 60px Tahoma;
+    text-align: center;
+    height: 100px;
+    background: linear-gradient(to right, #ff0300 0%,#ff0300 33%,#007b08 33%,#007b08 66%,#1500fc 66%,#1500fc 100%);
+    margin-bottom: 40px;
+}
+
+body > aside {
+    border-radius: 28px;
+    background-color: rgba(255,255,255,0.9);
+    display: inline-block;
+    float: left;
+    width: 273px;
+    padding: 20px;
+    margin-left: 18px;
+}
+
+body > aside > nav > header {
+    font-size: 30px;
+    text-decoration: underline;
+}
+body > aside > nav > ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+body > aside > nav > ul > li {
+    padding: 10px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+body > aside > nav > ul > li:before {
+    content: url("../images/tick.png");
+    margin-right: 8px;
+}
+body > aside > nav > ul > li:first-child:hover {
+    background-color: red;
+    border-radius: 15px;
+}
+body > aside > nav > ul > li:nth-child(2):hover {
+    background-color: #ffa500;
+    border-radius: 15px;
+}
+body > aside > nav > ul > li:nth-child(3):hover {
+    background-color: #ffff00;
+    border-radius: 15px;
+}
+body > aside > nav > ul > li:nth-child(4):hover {
+    background-color: #008000;
+    border-radius: 15px;
+}
+body > aside > nav > ul > li:nth-child(5):hover {
+    background-color: #0000ff;
+    border-radius: 15px;
+}
+body > aside > nav > ul > li:last-child:hover {
+    background-color: #800080;
+    border-radius: 15px;
+}
+
+body > aside > nav > ul > li a {
+    color: #000;
+    text-decoration: none;
+}
+body > aside > nav > ul > li a:visited {
+    color: #808080;
+}
+
+body > section {
+    color: #fff;
+    display: inline-block;
+    float: right;
+    width: 73.4%;
+    margin-right: 44px;
+}
+body > section > article {
+    border-radius: 28px;
+    background-color: rgba(255,255,255,0.9);
+    color: #000;
+    margin-bottom: 15px;
+    padding: 18px;
+
+}
+body > section > article > header {
+    color: #fff;
+    background-color: #ff0000;
+    border-radius: 12px;
+    height: 46px;
+    font-size: 36px;
+    padding: 14px 16px;
+}
+body > section > article > div {
+    text-indent: 5px;
+    font-size: 20.3px;
+    margin-top: 2px;
+}
+body > section > article > div:first-letter {
+    font-size: 83px;
+    font-style: italic;
+}
+
+body > section > article > div:first-line {
+    font-style: italic;
+}
+
+body > section > article > footer a {
+    color: #808080;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#webSafeColors {
+    background-color: #ffa500;
+    color: #000;
+}
+#RGB {
+    background-color: #ffff00;
+    color: #000;
+}
+#RGBA {
+    background-color: #008000;
+}
+#\#HSLHSV {
+    background-color: #0000ff;
+}
+#\#lorem {
+    background-color: #800080;
+}
+#\#lorem + span {
+     color: #00008b;
+    font-style: italic;
+}
+#\#lorem + span:before {
+    content: "\"";
+}
+#\#lorem + span:after {
+    content: "\"";
+}
